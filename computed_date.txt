@@ -1,0 +1,6 @@
+computed: {
+    todaysDate() {
+      let timeStamp = Date.now();
+      return date.formatDate(timeStamp, "YYYY-MM-DDTHH:mm:ss.SSSZ");
+    },
+  },
